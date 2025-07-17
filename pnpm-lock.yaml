@@ -14,9 +14,6 @@ importers:
       eslint:
         specifier: ^9.30.1
         version: 9.31.0
-      vite:
-        specifier: ^7.0.4
-        version: 7.0.4(@types/node@24.0.14)
 
   backend:
     dependencies:

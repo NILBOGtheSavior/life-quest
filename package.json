@@ -5,13 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"pnpm --filter frontend dev\" \"pnpm --filter backend dev\"",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint ."
+    
   },
   "devDependencies": {
     "concurrently": "^9.2.0",
-    "eslint": "^9.30.1",
-    "vite": "^7.0.4"
+    "eslint": "^9.30.1"
   }
 }
