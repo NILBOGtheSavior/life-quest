@@ -5,7 +5,8 @@ import './App.css'
 
 // Import modules
 
-import DailyQuests from './modules/quest-modules.tsx'
+import DailyQuests from './modules/daily-quests.tsx'
+import SkillQuests from './modules/skill-quests.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
      <div>
         <h1>Life Quest</h1>
         <DailyQuests />
+        <SkillQuests />
      </div>
     </>
   )
