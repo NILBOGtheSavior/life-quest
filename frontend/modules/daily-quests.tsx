@@ -1,6 +1,6 @@
 export default function DailyQuests (){
   return (
-  <div class="daily_quests">
+  <div className="panel">
     <h2>Daily Quests</h2>
       <DailyQuest
         quest_name="Do daily exercise"
