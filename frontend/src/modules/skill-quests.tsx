@@ -10,7 +10,10 @@ export default function SkillQuests () {
   );
 }
 
-function SkillQuest ({skill, level}) {
+function SkillQuest ({skill, level}:{
+  skill: string,
+  level: number
+}) {
   return (
     <div>
       <p>{skill} <sup><small>LVL {level}</small></sup></p>
